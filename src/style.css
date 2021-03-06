@@ -1,0 +1,50 @@
+#progOutput tbody img{
+    max-width: 128px;
+}
+
+
+#progOutput table{
+    overflow: auto;
+    height: 1000px;
+    border-style: solid;
+}
+
+#progOutput td{
+    border-style: solid;
+    overflow: auto;
+}
+#topContainer {
+    border: 2px solid red;
+  }
+  
+  #pageTitle {
+    background-color: rgb(107, 113, 133);
+    text-align: center;
+  }
+  
+  #userInput {
+    background-color: rgb(25, 0, 255);
+    text-align: center;
+  }
+  
+  #progOutput {
+    background-color: rgba(128, 128, 128, 0.952);
+  }
+  #topContainer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+      "header header"
+      "catdata control";
+  }
+  #pageTitle {
+    grid-area: header;
+  }
+  
+  #progOutput {
+    grid-area: catdata;
+  }
+  
+  #userInput {
+    grid-area: control;
+  }

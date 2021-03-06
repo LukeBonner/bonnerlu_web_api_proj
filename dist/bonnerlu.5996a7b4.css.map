@@ -1,0 +1,1 @@
+{"version":3,"sources":["bonnerlu.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"bonnerlu.5996a7b4.css","sourceRoot":"..\\src","sourcesContent":[".light{\r\n    color:rgb(165, 209, 140);\r\n    font-weight: lighter;\r\n}\r\n\r\n.heavy{\r\n    color: rgb(192, 153, 125);\r\n    font-weight: bolder;\r\n}"]}

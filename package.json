@@ -1,0 +1,24 @@
+{
+  "name": "bonnerlu_web_api_proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/chai-dom": "0.0.10",
+    "@types/mocha": "^8.2.1"
+  }
+}
