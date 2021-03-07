@@ -48,3 +48,23 @@
   #userInput {
     grid-area: control;
   }
+
+  #dogTitle{
+    grid-area:dogHeader;
+  }
+
+  #userInputDog{
+    grid-area:controlDog
+  }
+
+  #progOutputDog{
+    grid-area: dogData;
+  }
+
+  #bottomContainer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+      "dogHeader dogHeader"
+      "dogdata controlDog";
+  }
